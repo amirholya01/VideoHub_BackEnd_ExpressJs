@@ -1,0 +1,26 @@
+{
+  "name": "videohub-backend-expressjs",
+  "version": "1.0.0",
+  "description": "Final Project - ExpressJs - VideoHub",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/amirholya01/VideoHub_BackEnd_ExpressJs.git"
+  },
+  "keywords": [
+    "nodejs",
+    "expressjs",
+    "mongodb",
+    "mongoose",
+    "swagger"
+  ],
+  "author": "Amir Hossein Olyanasab Narab",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/amirholya01/VideoHub_BackEnd_ExpressJs/issues"
+  },
+  "homepage": "https://github.com/amirholya01/VideoHub_BackEnd_ExpressJs#readme"
+}

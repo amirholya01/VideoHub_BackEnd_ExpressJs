@@ -1,0 +1,32 @@
+# Logs
+logs
+*.log
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Dependency directories
+node_modules/
+
+# Build files
+dist/
+
+# Environment variables
+.env
+
+# IDE files
+.idea/
+.vscode/
+
+# npm package files
+package-lock.json
+yarn.lock
+
+# macOS metadata
+.DS_Store
+
+# Windows thumbnail cache files
+Thumbs.db
