@@ -1,8 +1,11 @@
+
+const { AdminApiRoutes } = require("./admin/admin");
 const {UserRoutes} = require("./user/user");
 
 
 const router = require("express").Router();
 
+router.use("/admin", AdminApiRoutes);
 router.use(UserRoutes);
 
 
