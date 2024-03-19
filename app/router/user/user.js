@@ -1,7 +1,7 @@
-// Importing the Router module from Express.js
 const router = require("express").Router();
 
+router.use("/user", AuthRoutes);
 
 module.exports = {
-    AuthRoutes : router
+    UserRoutes : router
 }
