@@ -2,7 +2,6 @@ const morgan = require("morgan");
 const cookieParser = require("cookie-parser");
 const swaggerUI = require("swagger-ui-express");
 const swaggerJsDoc = require("swagger-jsdoc");
-const {AllRoutes} = require("./router/router");
 
 module.exports = class Application{
 
