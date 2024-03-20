@@ -2,7 +2,7 @@
 const mongoose = require("mongoose");
 
 // Importing the CommentSchema from the comment file
-const { CommentSchema } = require("./comment");
+// const { CommentSchema } = require("./comment");
 
 // Defining a schema for episodes
 const Episodes = new mongoose.Schema({
@@ -44,7 +44,7 @@ const CourseSchema = new mongoose.Schema({
     // category field representing the category of the course, referencing the 'category' collection and is required
     category: { type: mongoose.Types.ObjectId, ref: "category", required: true },
     // comments field representing the comments associated with the course, which defaults to an empty array
-    comments: { type: [CommentSchema], default: [] },
+    // comments: { type: [CommentSchema], default: [] },
     // teacher field representing the teacher of the course, referencing the 'user' collection and is required
     // teacher: { type: mongoose.Types.ObjectId, ref: "user", required: true },
     // chapters field representing the chapters of the course, which defaults to an empty array
