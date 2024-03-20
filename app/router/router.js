@@ -1,5 +1,5 @@
 
-const { AdminApiRoutes } = require("./admin/admin");
+const { AdminApiRoutes } = require("./admin/adminRoutes");
 const {UserRoutes} = require("./user/user");
 
 
