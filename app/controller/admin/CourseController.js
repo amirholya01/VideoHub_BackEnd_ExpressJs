@@ -17,6 +17,15 @@ class CourseController extends Controller{
             next(e);
         }
     }
+
+
+    async createCourse(req, res, next){
+        try{
+
+        }catch (e) {
+            next(e);
+        }
+    }
 }
 
 module.exports = {
