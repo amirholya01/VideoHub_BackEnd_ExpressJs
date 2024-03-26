@@ -58,6 +58,8 @@ const CourseSchema = new mongoose.Schema({
     }
 });
 
+CourseSchema.index({title: "text", text : "text"})
+
 // Exporting the CourseModel for use in other parts of the application
 module.exports = {
     CourseModel: mongoose.model("course", CourseSchema)
